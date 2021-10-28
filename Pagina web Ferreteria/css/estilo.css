@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none ;
+    list-style:none;
+}
+body{
+    background-color: #ffffff;
+    height: 20000px;
+}
+a,li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+.logo-header img{
+    width: 150px;
+}
+header{
+    background-color: rgba(54, 42, 219, 0.884);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:.5em 2rem;
+}
+.nav-menu ul{
+    display:flex;
+    align-items:center;
+}
+.nav-menu li{
+    margin-right: 1.5rem; 
+}
+.nav-menu a:hover{
+    background-color: #010274cb;
+    border:2px solid #010274cb;
+    padding: .25rem .75em;
+    border-radius: .2rem;
+}
+.nav-menu
+li:last-child:hover{
+background:transparent;
+border:0px solid #010274cb;
+}
+#contenedor img{
+    width: 1348px;
+    height: 550px;
+    object-fit: cover;
+}
+#contenedor{
+    width: 1348px;
+    margin:0px auto;
+    padding:0px auto;
+    overflow: hidden;
+    position: relative;
+}
+#contenedor ul{
+    list-style: none;
+    width: 2800px;
+    display: flex;
+    animation: slide 20s infinite alternate;
+}
+@keyframes slide{
+    0%{margin-left: 0px;}
+    20%{margin-left: 0px;}
+
+    25%{margin-left: -1348px;}
+    45%{margin-left: -1348px;}
+
+    50%{margin-left: -2696px;}
+    70%{margin-left: -2696px;}
+
+    75%{margin-left: -4044px;}
+    100%{margin-left: -4044px;}
+}
+
+.flex-caption p{
+    font-family: Lato;
+    position:absolute;
+    top:50%;
+    text-align: center;
+    width: 100%;
+    font-size: 45px;
+    color:#ffe555;
+    border-color: black;
+}
+
+.Cuerpo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    line-height: 37px;
+}
+
+.Parrafos{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#Imagenes{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+    height: 300px;
+}
+
+.Productos {
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 37px;
+}
